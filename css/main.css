@@ -14,7 +14,7 @@
 body {
 	overflow: hidden;
 	width: 1250px;
-	height: 2680px;
+	height: 2649.2px;
 	margin: 0 auto;
 	margin-top: 30px;
 }
@@ -252,11 +252,14 @@ header {
 /* intro - */
 
 main {
+	margin: 0;
+	padding: 0;
 }
+/* features + */
 .features {
 	width: 1250px;
 	height: 393px;
-	padding: 60px 0;
+	padding: 60px 0 0 0;
 }
 .features__body {
 	margin-top: 11px;
@@ -302,7 +305,7 @@ main {
 	height: 8px;
 	background: #ddd;
 }
-.group{
+.group {
 	display: flex;
 	align-items: center;
 }
@@ -319,3 +322,117 @@ main {
 	font-weight: 700;
 	line-height: 25.6px;
 }
+
+/* features - */
+
+/* 
+ */
+.frame {
+	width: 1000px;
+	height: 670px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* padding-top: 35px; */
+}
+
+.frame__left {
+	width: 490px;
+	height: 444px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.frame__right {
+	width: 400px;
+	height: 599.93px;
+	margin-bottom: 50px;
+}
+
+.header-text {
+	width: 380px;
+	font-weight: 700;
+	font-size: var(--title-font-size);
+	line-height: 60px;
+	color: #000;
+}
+.frame__body {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	width: 490px;
+	height: 96px;
+	border-left: 3px solid var(--secondary-color);
+	padding-left: 40px;
+}
+
+.frame__body-text {
+	width: 450px;
+}
+.text {
+	font-weight: 400;
+	font-size: var(--default-font-size);
+	line-height: 24px;
+	color: var(--secondary-color);
+}
+
+.button {
+	padding: 12px;
+	background: #c9514c;
+	font-size: var(--button-font-size);
+	color: #fff;
+	width: 260px;
+	height: 50px;
+	border: none;
+	font-weight: 700;
+	line-height: 27px;
+	text-transform: uppercase;
+}
+/*  */
+/* footer + */
+.footer {
+	color: #fff;
+	margin-top: 10px;
+	width: 100%;
+	height: 830.19px;
+	background-image: url(../assets/images/runners\ 2x\ web.webp);
+	background-attachment: scroll;
+	background-size: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.footer__card {
+	
+	position: absolute;
+	top: 28%;
+	left: 51%;
+	width: 490px;
+	height: 351px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.footer__card-title {
+	width: 490px;
+	height: 120px;
+
+	
+}
+.footer-title{
+	font-size: var(--title-font-size);
+	font-weight: 700;
+	line-height: 60px;
+}
+
+.footer-text{
+font-size: var(--default-font-size);
+font-weight: 400;
+line-height: 24px;
+border-left: 3px solid #fff;
+padding-left: 40px;
+
+}
+/* footer - */
