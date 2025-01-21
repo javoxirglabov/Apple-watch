@@ -17,10 +17,7 @@ body {
 	height: 2680px;
 	margin: 0 auto;
 	margin-top: 30px;
-	
 }
-
-
 
 :root {
 	--primary-color: #000;
@@ -31,9 +28,9 @@ body {
 	--nav-font-size: 15px;
 	--default-font-size: 16px;
 }
-hr{
+hr {
 	height: 1px;
-	background-color:#ddd;
+	background-color: #ddd;
 	border: none;
 }
 .container {
@@ -48,7 +45,6 @@ header {
 .nav {
 	padding-top: 3px;
 	background-color: #fff;
-	z-index: 99;
 	font-weight: 400;
 	line-height: 22.5px;
 	font-size: var(--nav-font-size);
@@ -56,7 +52,6 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	width: inherit;
-	position: fixed;
 	width: 1000px;
 	height: 42px;
 }
@@ -153,8 +148,6 @@ header {
 .nav__actions:hover::after {
 	width: 100%;
 	height: 2px;
-
-
 }
 
 .nav__actions:active {
@@ -172,7 +165,6 @@ header {
 	line-height: 22.5px;
 	font-size: var(--nav-font-size);
 	text-align: center;
-
 }
 /* nav-actions - */
 
@@ -181,13 +173,12 @@ header {
 	margin-left: 125px;
 	width: 1447px;
 	height: 610px;
-	margin-top:75px;
+	margin-top: 30px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	overflow: hidden;
 	position: relative;
-
 }
 
 .intro__left {
@@ -195,7 +186,7 @@ header {
 	width: 490px;
 	height: 291px;
 	display: flex;
-	flex-direction:  column;
+	flex-direction: column;
 	margin-top: -45px;
 }
 
@@ -253,10 +244,9 @@ header {
 	position: absolute;
 	width: 587px;
 	height: 565px;
-	
+	overflow: hidden;
 }
 
 .intro__right-image {
-	
 }
 /* intro - */
